@@ -1,0 +1,12 @@
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\bin\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.deps.json
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\bin\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.dll
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\bin\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.pdb
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\bin\Debug\netstandard2.0\CityComparison.Domain.dll
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\bin\Debug\netstandard2.0\CityComparison.Domain.pdb
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.csprojAssemblyReference.cache
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.AssemblyInfoInputs.cache
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.AssemblyInfo.cs
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.csproj.CopyComplete
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.dll
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.EntityFrameworkCore\obj\Debug\netstandard2.0\CityComparison.EntityFrameworkCore.pdb

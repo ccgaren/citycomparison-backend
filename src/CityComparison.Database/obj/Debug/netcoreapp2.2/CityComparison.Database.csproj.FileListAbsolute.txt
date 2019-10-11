@@ -1,0 +1,11 @@
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\bin\Debug\netcoreapp2.2\CityComparison.Database.deps.json
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\bin\Debug\netcoreapp2.2\CityComparison.Database.runtimeconfig.json
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\bin\Debug\netcoreapp2.2\CityComparison.Database.runtimeconfig.dev.json
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\bin\Debug\netcoreapp2.2\CityComparison.Database.dll
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\bin\Debug\netcoreapp2.2\CityComparison.Database.pdb
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\obj\Debug\netcoreapp2.2\CityComparison.Database.csprojAssemblyReference.cache
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\obj\Debug\netcoreapp2.2\CityComparison.Database.csproj.CoreCompileInputs.cache
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\obj\Debug\netcoreapp2.2\CityComparison.Database.AssemblyInfoInputs.cache
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\obj\Debug\netcoreapp2.2\CityComparison.Database.AssemblyInfo.cs
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\obj\Debug\netcoreapp2.2\CityComparison.Database.dll
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Database\obj\Debug\netcoreapp2.2\CityComparison.Database.pdb
