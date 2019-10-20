@@ -1,9 +1,0 @@
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\bin\Debug\netstandard2.0\CityComparison.Domain.deps.json
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\bin\Debug\netstandard2.0\CityComparison.Domain.dll
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\bin\Debug\netstandard2.0\CityComparison.Domain.pdb
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\obj\Debug\netstandard2.0\CityComparison.Domain.csprojAssemblyReference.cache
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\obj\Debug\netstandard2.0\CityComparison.Domain.csproj.CoreCompileInputs.cache
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\obj\Debug\netstandard2.0\CityComparison.Domain.AssemblyInfoInputs.cache
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\obj\Debug\netstandard2.0\CityComparison.Domain.AssemblyInfo.cs
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\obj\Debug\netstandard2.0\CityComparison.Domain.dll
-E:\CityComparison_React\citycomparison-backend\src\CityComparison.Domain\obj\Debug\netstandard2.0\CityComparison.Domain.pdb
