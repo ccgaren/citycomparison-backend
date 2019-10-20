@@ -75,7 +75,9 @@ artifacts/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-
+bin/
+obj/
+Debug/
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
@@ -102,4 +104,3 @@ UpgradeLog*.htm
 *.bim_*.settings
 
 ## Project Specific Ignores
-
