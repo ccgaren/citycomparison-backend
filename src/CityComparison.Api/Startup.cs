@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using AutoMapper;
-using CityComparison.EntityFrameworkCore;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -19,6 +17,7 @@ using Microsoft.Extensions.DependencyModel;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Swashbuckle.AspNetCore.Swagger;
+using CityComparison.EntityFrameworkCore;
 
 namespace CityComparison.Api
 {
@@ -157,13 +156,13 @@ namespace CityComparison.Api
             }
 
             var abc = AppDomain.CurrentDomain.GetAssemblies();
-            var blogAssemblies = new List<Assembly>();
+            var cityComparisonAssemblies = new List<Assembly>();
 
-            blogAssemblies.AddRange(AppDomain.CurrentDomain
+            cityComparisonAssemblies.AddRange(AppDomain.CurrentDomain
                         .GetAssemblies()
                         .Where(a => a.FullName.StartsWith("CityComparison")));
 
-            builder.RegisterAssemblyModules(blogAssemblies.ToArray());
+            builder.RegisterAssemblyModules(cityComparisonAssemblies.ToArray());
 
             return builder;
         }
@@ -171,9 +170,10 @@ namespace CityComparison.Api
         //Register automapper
         private ContainerBuilder RegisterAutoMappings(ContainerBuilder builder)
         {
-            var assemblyNames = Assembly.GetExecutingAssembly().GetReferencedAssemblies();
+            var assemblyNames = DependencyContext.Default.GetRuntimeAssemblyNames(string.Empty)
+              .Where(a => a.FullName.StartsWith("CityComparison"));
+
             var assembliesTypes = assemblyNames
-                .Where(a => a.Name.Contains("CityComparison", StringComparison.OrdinalIgnoreCase))
                 .SelectMany(an => Assembly.Load(an).GetTypes())
                 .Where(p => typeof(Profile).IsAssignableFrom(p) && p.IsPublic && !p.IsAbstract)
                 .Distinct();
@@ -187,7 +187,9 @@ namespace CityComparison.Api
                 {
                     cfg.AddProfile(profile);
                 }
-            }));
+            })).AsSelf()
+            .AutoActivate()
+            .SingleInstance();
 
             builder.Register(ctx => ctx.Resolve<MapperConfiguration>()
                                         .CreateMapper()).As<IMapper>().InstancePerLifetimeScope();

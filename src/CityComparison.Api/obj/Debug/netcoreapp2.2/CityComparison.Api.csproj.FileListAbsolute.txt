@@ -1,3 +1,4 @@
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Api\bin\Debug\netcoreapp2.2\appsettings.json
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Api\bin\Debug\netcoreapp2.2\CityComparison.Api.deps.json
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Api\bin\Debug\netcoreapp2.2\CityComparison.Api.runtimeconfig.json
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Api\bin\Debug\netcoreapp2.2\CityComparison.Api.runtimeconfig.dev.json

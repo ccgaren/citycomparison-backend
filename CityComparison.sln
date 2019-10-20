@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityComparison.Api", "src\CityComparison.Api\CityComparison.Api.csproj", "{1DC0E065-473A-424B-9D14-29E017AA1889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityComparison.Api", "src\CityComparison.Api\CityComparison.Api.csproj", "{1DC0E065-473A-424B-9D14-29E017AA1889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityComparison.EntityFrameworkCore", "src\CityComparison.EntityFrameworkCore\CityComparison.EntityFrameworkCore.csproj", "{B88BB9EC-65C4-4CAA-8B34-E4410EACB6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityComparison.EntityFrameworkCore", "src\CityComparison.EntityFrameworkCore\CityComparison.EntityFrameworkCore.csproj", "{B88BB9EC-65C4-4CAA-8B34-E4410EACB6AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityComparison.Application", "src\CityComparison.Application\CityComparison.Application.csproj", "{A1AA1FC2-0FE3-4DA6-B8EB-A372FAAF9E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityComparison.Application", "src\CityComparison.Application\CityComparison.Application.csproj", "{A1AA1FC2-0FE3-4DA6-B8EB-A372FAAF9E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityComparison.Domain", "src\CityComparison.Domain\CityComparison.Domain.csproj", "{56F7E48D-C218-4657-916C-EFBBB4A4B458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityComparison.Domain", "src\CityComparison.Domain\CityComparison.Domain.csproj", "{56F7E48D-C218-4657-916C-EFBBB4A4B458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityComparison.Database", "src\CityComparison.Database\CityComparison.Database.csproj", "{B2C1299A-71CE-4342-9249-0441F8ED6A46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityComparison.Database", "src\CityComparison.Database\CityComparison.Database.csproj", "{B2C1299A-71CE-4342-9249-0441F8ED6A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityComparison.Application.Test", "test\CityComparison.Application.Test\CityComparison.Application.Test.csproj", "{3F232AC0-457F-469A-A632-5FA97E34E73B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DC366CC7-23E0-4B9E-B98B-A03506CA45E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{B2C1299A-71CE-4342-9249-0441F8ED6A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C1299A-71CE-4342-9249-0441F8ED6A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C1299A-71CE-4342-9249-0441F8ED6A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F232AC0-457F-469A-A632-5FA97E34E73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F232AC0-457F-469A-A632-5FA97E34E73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F232AC0-457F-469A-A632-5FA97E34E73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F232AC0-457F-469A-A632-5FA97E34E73B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F232AC0-457F-469A-A632-5FA97E34E73B} = {DC366CC7-23E0-4B9E-B98B-A03506CA45E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0EBD84F1-C0D2-4334-833C-46B5CA64E4C1}

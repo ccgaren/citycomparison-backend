@@ -1,7 +1,7 @@
-﻿using DbUp;
-using Microsoft.Extensions.Configuration;
-using System;
+﻿using System;
 using System.IO;
+using DbUp;
+using Microsoft.Extensions.Configuration;
 
 namespace CityComparison.Database
 {
@@ -18,7 +18,7 @@ namespace CityComparison.Database
 
             Configuration = builder.Build();
 
-            var result = Deploy("Blog");
+            var result = Deploy("CityComparison");
 
             return (result ? 0 : 1);
         }
@@ -33,7 +33,7 @@ namespace CityComparison.Database
             var upgrader =
                DeployChanges.To
                    .SqlDatabase(connectionString)
-                   .WithScriptsEmbeddedInAssembly(typeof(Program).Assembly, x => x.StartsWith($"Blog.Database.{dbName}."))
+                   .WithScriptsEmbeddedInAssembly(typeof(Program).Assembly, x => x.StartsWith($"CityComparison.Database.{dbName}."))
                    .WithTransaction()
                    .WithExecutionTimeout(new TimeSpan(0, 1, 0))
                    .LogToConsole()

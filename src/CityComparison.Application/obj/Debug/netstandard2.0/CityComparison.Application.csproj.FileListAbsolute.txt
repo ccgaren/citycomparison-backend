@@ -1,9 +1,12 @@
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\bin\Debug\netstandard2.0\CityComparison.Application.deps.json
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\bin\Debug\netstandard2.0\CityComparison.Application.dll
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\bin\Debug\netstandard2.0\CityComparison.Application.pdb
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\bin\Debug\netstandard2.0\CityComparison.Domain.dll
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\bin\Debug\netstandard2.0\CityComparison.Domain.pdb
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.csprojAssemblyReference.cache
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.csproj.CoreCompileInputs.cache
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.AssemblyInfoInputs.cache
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.AssemblyInfo.cs
+E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.csproj.CopyComplete
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.dll
 E:\CityComparison_React\citycomparison-backend\src\CityComparison.Application\obj\Debug\netstandard2.0\CityComparison.Application.pdb
